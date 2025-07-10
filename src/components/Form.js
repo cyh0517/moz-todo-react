@@ -9,6 +9,7 @@ export default function Form(props){
         event.preventDefault();
         props.onSubmit(name);
         setName("");
+        //hello
     }
 
     function handleChange(event){
